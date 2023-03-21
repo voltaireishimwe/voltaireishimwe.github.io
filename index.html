@@ -15,6 +15,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
  <!-- Custom Theme files -->
+ <!--- Whatsapp --->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!--- Whatsapp --->	
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
  <meta name="keywords" content="Preface Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -36,6 +39,41 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</script>
  <!---- start-smoth-scrolling---->
 </head>
+	<!-- Whatsapp css --->
+	<style type="text/css">
+.whatsapp_float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+    }
+    .whatsapp-icon {
+      margin-top: 16px;
+    }
+
+    /* for mobile */
+    @media screen and (max-width: 767px){
+      .whatsapp-icon {
+        margin-top: 10px;
+      }
+      .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+      }
+    }
+</style>
+	<!-- Whatsapp css --->
 	<body style="background:;">
 		<!-- container -->
 			<!-- header -->
@@ -1008,7 +1046,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<!--end-smooth-scrolling-->
 <!-- //for bootstrap working -->
 	<script src="js/bootstrap.js"></script>
-	
+	<!---- Whatsapp send------>
+	<a href="https://api.whatsapp.com/send?phone=+250784003649&text=Hi%20Mr.Voltaire,<br>I%20would%20like%20to%20get%20more%20information..."  target="_blank" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
+	<!---- Whatsapp send------>
 
 	</body>
 </html>
